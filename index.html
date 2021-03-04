@@ -4,26 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NgeDonat</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+    <title>Donat</title>
 </head>
 <body>
     <header>
         <div class="jumbotron">
             <h1>Donat</h1>
-            <p>Cemilan asik and so sweet</p>
+            <p>Cemilan asik dan so sweet</p>
         </div>
         <nav>
             <ul>
-                <li>Sejarah</li>
-                <li>Varian</li>
+                <li><a href="">Sejarah</a></li>
+                <li><a href="">Varian</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <div class="content">
-            <article id="sejarah">
-                <h2>Sejarah</h2>
+            <h2>Sejarah</h2>
+            <article id="sejarah" class="card">
+                <img src="assets/img/jumbotron.jpg" alt="img-sejarah">
                 <p>Donat adalah salah satu jajanan asal Amerika yang sangat populer sekali di Indonesia. Kepopuleran donat di Indonesia
                 menjadikannya tak hanya sebagai camilan yang cocok disantap pada setiap kesempatan, tapi juga seringkali dijadikan
                 sebagai sarapan atau bingkisan untuk teman atau keluarga saat sedang berkunjung ke rumah mereka. Donat sebenarnya sudah
@@ -36,23 +38,23 @@
             <article id="varian">
                 <h2>Varian</h2>
                 <div class="card">
-                    <img src="assets/img/donat ori.jpg" alt="donat ori">
+                    <img src="assets/img/donat ori.jpg" alt="donat ori" class="img-produk">
                     <h3>Original Donat</h3>
                     <p>Original Donat dibuat dari bahan dasar kentang sehingga teksturnya lebih padat dan pastinya mengenyangkan. Dengan dimandikan gula halus sehingga seluruh bagian permukaan luarnya tertutup gula halus yang berwarna putih.</p>
-                </div>
-                <div class="card">
-                    <img src="assets/img/matcha donat.jpg" alt="donat matcha">
+                    <br>
+                
+                    <img src="assets/img/matcha donat.jpg" alt="donat matcha" class="img-produk">
                     <h3>Matcha Donat</h3>
                     <p>Matcha Donat ini memiliki tampilan berwarna kehijauan karena memang dibuat dari campuran matcha. Dengan begitu
                     aroma dan cita rasanya sangat berbeda dan unik. Penggunaan matcha memang tak hanya bisa mengubah warnanya saja, tapi juga cita rasa yang dimilikinya.</p>
-                </div>
-                <div class="card">
-                    <img src="assets/img/tiramisu donat.jpg" alt="donat tiramisu">
+                    <br>
+
+                    <img src="assets/img/tiramisu donat.jpg" alt="donat tiramisu" class="img-produk">
                     <h3>Tiramisu Donat</h3>
                     <p>Tiramisu Donat hadir dengan cita rasa khas tiramisu yang di dalamnya terdapat campuran cokelat serta kopi. Tiramisu Donat ini bentuk donatnya tidak ada lubang di tengahnya karena pada bagian tengah diisi krim tiramisu. Jadi pada saat anda menggigit bagian tengahnya anda akan merasakan krim tiramisu yang lezat menyatu dengan donat.</p>
-                </div>
-                <div class="card">
-                    <img src="assets/img/oreo donat.jpg" alt="donat ori">
+                    <br>
+
+                    <img src="assets/img/oreo donat.jpg" alt="donat ori" class="img-produk">
                     <h3>Oreo Donat</h3>
                     <p>Oreo Donat juga menjadi salah satu varian rasa donat yang menjadi favorit banyak orang karena memberikan perpaduan cita
                     rasa yang lezat serta tekstur yang unik. Oreo Donat ini memang dibuat dengan bahan campuran oreo di dalamnya dan pada
@@ -60,27 +62,29 @@
                     kuliner sekaligus.</p>
                 </div>
             </article>
-
-            <aside>
-                <article id="profil">
-                    <header>
-                        <img src="assets/img/syamsul.JPG" alt="foto diri">
-                        <h3>M Syamsul Arifin</h3>
-                    </header>
-
-                    <section>
-                        <i>Alamat :</i>&nbsp;Karanganyar paiton probolinggo
-                        <i>Email :</i>&nbsp;m.5y4msulpaiton@gmail.com
-                        <i>Facebook :</i>&nbsp;Arifin Paiton
-                        <i>Instagram :</i>&nbsp;@arifinpaiton
-                    </section>
-                </article>
-            </aside>
         </div>
+
+
+        <aside>
+            <h2 class="text-center">Profil</h2>
+            <article class="profil card">
+                <header>
+                    <img src="assets/img/syamsul.JPG" alt="foto diri">
+                    <h3>M Syamsul Arifin</h3>
+                </header>
+
+                <section>
+                    <i>Alamat :</i>&nbsp;Karanganyar paiton probolinggo
+                    <i>Email :</i>&nbsp;m.5y4msulpaiton@gmail.com
+                    <i>Facebook :</i>&nbsp;Arifin Paiton
+                    <i>Instagram :</i>&nbsp;@arifinpaiton
+                </section>
+            </article>
+        </aside>
     </main>
 
     <!--footer  -->
-    <footer>
+    <footer class="text-center">
         <p><i>Developed by @rifinpaiton</i></p>
     </footer>
 </body>
