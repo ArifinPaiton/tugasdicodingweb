@@ -207,3 +207,39 @@ footer {
     width: 100%;
   }
 }
+
+ @media screen and (max-width: 1024px) {
+  .judul {
+    width: 50%;
+  }
+
+  #sejarah img {
+    max-height: 200px;
+    object-position: 0 -100px;
+  }
+
+  nav li {
+    margin-right: 5px;
+  }
+
+  nav a {
+    font-size: 16px;
+    font-weight: 200;
+  }
+
+  .card {
+    margin: 10px 0;
+  }
+
+  .card-30 {
+    clear: both;
+    width: 100%;
+    margin: 10px 0 20px 0;
+  }
+
+  .profil {
+    margin: auto;
+    margin-top: 10px;
+    width: 100%;
+  }
+} */
