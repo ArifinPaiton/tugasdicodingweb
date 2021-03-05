@@ -15,6 +15,13 @@ h3 {
   color: #243949;
 }
 
+.judul {
+  width: 10%;
+  margin: auto;
+  padding: 20px 20px 10px 20px;
+  border-bottom: 2px solid #243949;
+}
+
 nav {
   /* background-color: black; */
   background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
@@ -34,7 +41,7 @@ header {
 
 nav li {
   display: inline;
-  margin-right: 40px;
+  margin-right: 20px;
   list-style-type: none;
 }
 
@@ -43,6 +50,10 @@ nav a {
   text-decoration: none;
   font-size: 18px;
   font-weight: 500;
+}
+
+.aktif a {
+  font-weight: 550;
 }
 
 nav a:hover {
@@ -55,24 +66,28 @@ main {
 }
 
 article {
+  padding: 50px 0;
+}
+
+#varian {
   margin-bottom: 50px;
-}
-
-.content {
-  float: left;
-  width: 70%;
-}
-
-aside {
-  float: right;
-  width: 25%;
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   padding: 20px;
-  margin-top: 20px;
+  margin: 30px 0;
+}
+
+.card-30 {
+  /* clear: both; */
+  float: left;
+  width: 30%;
+  margin: 30px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
 }
 
 .img-produk {
@@ -84,9 +99,8 @@ aside {
 
 #sejarah img {
   width: 100%;
-  /* height: 50%; */
   max-height: 500px;
-  object-position: 0 -600px;
+  object-position: 0 -920px;
   object-fit: cover;
 }
 
@@ -94,15 +108,23 @@ aside {
   text-align: center;
 }
 
+aside {
+  clear: both;
+}
+
 .profil {
-  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+  width: 30%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
 }
 
 .profil img {
   width: 200px;
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
-  align-content: center;
 }
 
 .jumbotron {
@@ -123,4 +145,65 @@ footer {
   padding: 10px;
   color: white;
   background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+}
+
+@media screen and (max-width: 600px) {
+  .judul {
+    width: 50%;
+  }
+
+  #sejarah img {
+    max-height: 200px;
+    object-position: 0 -100px;
+  }
+
+  nav li {
+    margin-right: 5px;
+  }
+
+  nav a {
+    font-size: 16px;
+    font-weight: 200;
+  }
+
+  .card {
+    margin: 10px 0;
+  }
+
+  .card-30 {
+    clear: both;
+    width: 100%;
+    margin: 10px 0 20px 0;
+  }
+
+  .profil {
+    /* margin: auto;
+    margin-top: 10px; */
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .judul {
+    width: 50%;
+  }
+
+  #sejarah img {
+    object-position: 0 -300px;
+  }
+
+  .card {
+    margin: 10px 0;
+  }
+
+  .card-30 {
+    clear: both;
+    width: 100%;
+    margin: 10px 0 20px 0;
+  }
+
+  .profil {
+    /* margin-top: 10px; */
+    width: 100%;
+  }
 }
